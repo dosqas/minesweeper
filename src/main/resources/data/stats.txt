@@ -1,0 +1,4 @@
+wonMatches:0
+playedMatches:0
+discoveredMines:0
+discoveredNonMineTiles:0
