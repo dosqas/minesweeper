@@ -66,7 +66,7 @@ public class AudioPlayer {
             }
 
         } catch (UnsupportedAudioFileException | IOException | LineUnavailableException e) {
-            e.printStackTrace();
+            System.err.println("Audio error: " + e.getMessage());
             hasSound = false;
         }
     }
@@ -112,7 +112,7 @@ public class AudioPlayer {
                 sfxClip = newSFXClip;
             }
         } catch (UnsupportedAudioFileException | IOException | LineUnavailableException e) {
-            e.printStackTrace();
+            System.err.println("Audio error: " + e.getMessage());
             hasSound = false;
         }
     }
