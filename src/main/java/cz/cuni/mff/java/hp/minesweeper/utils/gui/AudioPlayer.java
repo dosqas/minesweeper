@@ -14,6 +14,7 @@ public class AudioPlayer {
     private static Clip musicClip;
     private static Clip sfxClip;
     private static int currentTheme = -1;
+    private static boolean hasSound = true;
 
     /**
      * Stops the currently playing music.
@@ -31,7 +32,7 @@ public class AudioPlayer {
      * @param filePath the path to the music file
      */
     public static void playMusic(String filePath) {
-        if (GlobalVariablesGUI.MUTE_MUSIC == 1) {
+        if (!hasSound || GlobalVariablesGUI.MUTE_MUSIC == 1) {
             return;
         }
         try {
@@ -66,6 +67,7 @@ public class AudioPlayer {
 
         } catch (UnsupportedAudioFileException | IOException | LineUnavailableException e) {
             e.printStackTrace();
+            hasSound = false;
         }
     }
 
@@ -75,7 +77,9 @@ public class AudioPlayer {
      * @param volume the volume level (0-100)
      */
     public static void setMusicVolume(int volume) {
-        setVolumeForClip(volume, musicClip);
+        if (hasSound) {
+            setVolumeForClip(volume, musicClip);
+        }
     }
 
     /**
@@ -84,7 +88,7 @@ public class AudioPlayer {
      * @param filePath the path to the sound effect file
      */
     public static void playSFX(String filePath) {
-        if (GlobalVariablesGUI.MUTE_SFX == 1) {
+        if (!hasSound || GlobalVariablesGUI.MUTE_SFX == 1) {
             return;
         }
         try {
@@ -109,6 +113,7 @@ public class AudioPlayer {
             }
         } catch (UnsupportedAudioFileException | IOException | LineUnavailableException e) {
             e.printStackTrace();
+            hasSound = false;
         }
     }
 
@@ -118,7 +123,9 @@ public class AudioPlayer {
      * @param volume the volume level (0-100)
      */
     public static void setSFXVolume(int volume) {
-        setVolumeForClip(volume, sfxClip);
+        if (hasSound) {
+            setVolumeForClip(volume, sfxClip);
+        }
     }
 
     /**
@@ -128,7 +135,9 @@ public class AudioPlayer {
      * @param clip the sound effect clip
      */
     public static void setSFXVolume(int volume, Clip clip) {
-        setVolumeForClip(volume, clip);
+        if (hasSound) {
+            setVolumeForClip(volume, clip);
+        }
     }
 
     /**
