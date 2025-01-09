@@ -148,9 +148,13 @@ public class AudioPlayer {
      */
     private static void setVolumeForClip(int volume, Clip clip) {
         if (clip != null && clip.isControlSupported(FloatControl.Type.MASTER_GAIN)) {
-            FloatControl volumeControl = (FloatControl) clip.getControl(FloatControl.Type.MASTER_GAIN);
-            float dB = (float) (Math.log(volume / 100.0) / Math.log(10.0) * 20.0);
-            volumeControl.setValue(dB);
+            try {
+                FloatControl volumeControl = (FloatControl) clip.getControl(FloatControl.Type.MASTER_GAIN);
+                float dB = (float) (Math.log(volume / 100.0) / Math.log(10.0) * 20.0);
+                volumeControl.setValue(dB);
+            } catch (IllegalArgumentException e) {
+                System.err.println("Volume adjustment error: " + e.getMessage());
+            }
         }
     }
 
