@@ -1,7 +1,7 @@
 # Minesweeper Application
 
 ## Introduction
-This is a Minesweeper game application created by Soptelea Sebastian. It features the classic features and modes, alongside custom difficulties, timed challenges, power-up game modifiers, appearance themes, and other quality of life features.
+This is a Minesweeper game application created by me. It features the classic features and modes, alongside custom difficulties, timed challenges, power-up game modifiers, appearance themes, and other quality of life features.
 ## Requirements
 - Java 22 or higher
 - Maven
