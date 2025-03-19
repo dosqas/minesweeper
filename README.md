@@ -1,4 +1,4 @@
-# Minesweeper Application
+# Minesweeper Game
 
 ## Introduction
 This is a Minesweeper game application created by me. It features the classic features and modes, alongside custom difficulties, timed challenges, power-up game modifiers, appearance themes, and other quality of life features.
