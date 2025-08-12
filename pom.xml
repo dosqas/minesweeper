@@ -48,7 +48,7 @@
     </dependencies>
 
     <build>
-        <finalName>Minesweeper_JAR</finalName>
+        <finalName>minesweeper</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
