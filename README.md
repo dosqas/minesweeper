@@ -21,12 +21,12 @@ Welcome to my Minesweeper game! Inspired by childhood memories of playing withou
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/dosqas/Minesweeper.git
+   git clone https://github.com/dosqas/minesweeper.git
    ```
 2. Enter the project folder:
 
    ```bash
-   cd Minesweeper
+   cd minesweeper
    ```
 
 ---
@@ -41,7 +41,7 @@ Welcome to my Minesweeper game! Inspired by childhood memories of playing withou
 2. Run the game:
 
    ```bash
-   java -jar target/Minesweeper_JAR.jar
+   java -jar target/minesweeper.jar
    ```
 
 ---
@@ -97,6 +97,18 @@ Growing up, I played Minesweeper without really understanding all the rules. Now
 * 📱 **Optimized UI:** Designed for smooth performance and consistent gameplay experience across various systems.  
   ![Main menu](demo/mainmenu.png)  
   *Navigate easily with a clean and intuitive interface.*
+
+---
+
+## 🛠️ Challenges & What I Learned
+
+Developing this Minesweeper game was both fun and a great learning experience. The biggest challenges I faced were:
+
+* 🐛 **Bug Squashing:** Debugging intricate game logic to ensure fair and accurate gameplay.
+* 🎵 **Audio System Implementation:** Integrating a responsive audio engine that plays music and sound effects in sync with game events.
+* ⚡ **Concurrency & Multithreading:** Managing threads for smooth UI updates and audio playback without freezing or stuttering.
+
+Through solving these challenges, I deepened my understanding of **Java multithreading**, **event-driven programming**, and **audio management in games**. This project was a great exercise in **problem-solving** and **clean code practices**.
 
 ---
 
