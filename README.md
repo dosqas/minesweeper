@@ -114,6 +114,14 @@ Through solving these challenges, I deepened my understanding of **Java multithr
 
 ---
 
+## Acknowledgements
+
+* Thanks to the original creators of the icons, sound effects, and music tracks used in this game!
+* Special thanks to **Maven Central** for providing easy access to the libraries and dependencies that helped streamline the development process.
+* Inspired by classic Minesweeper gameplay and the supportive open-source community.
+
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
