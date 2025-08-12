@@ -2,7 +2,9 @@
 
 ## 🎉 Introduction
 
-Welcome to my Minesweeper game! Inspired by childhood memories of playing without fully knowing the rules, this project brings a fresh take on the classic puzzle game. Now that I’ve grown and understood the mechanics better, I designed this version to be both nostalgic and exciting, packed with classic gameplay, custom difficulties, timed challenges, unique power-ups, multiple themes, and handy quality-of-life features.
+Welcome to my Minesweeper game! Inspired by childhood memories of playing without fully knowing the rules, this project brings a fresh take on the classic puzzle game. Now that I’ve grown and understood the mechanics better, I designed this version to be both nostalgic and exciting, packed with classic gameplay, custom difficulties, timed challenges, unique power-ups, multiple themes, and handy quality-of-life features.  
+
+This project was developed in **Java with Swing** during my **Erasmus semester** in my **second year of university** as part of the **Programming in Java Language** course.
 
 ![Gameplay Preview](demo/gameplay.gif)  
 *Experience the classic Minesweeper gameplay with modern enhancements!*
