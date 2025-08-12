@@ -1,0 +1,32 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# IntelliJ IDEA generated files
+out/
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Backup files
+*~
+
+# Data files
+data/*
