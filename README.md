@@ -58,14 +58,14 @@ mvn test
 
 ## 🌟 Features & Gameplay Highlights
 
-Growing up, I played Minesweeper without really understanding all the rules. Now, with a deeper knowledge and appreciation, I made this game to capture the fun and challenge of Minesweeper — with some modern twists:
+Growing up, I played Minesweeper without really understanding all the rules. Now, with a deeper knowledge and appreciation, I made this game to capture the fun and challenge of Minesweeper, with some modern twists:
 
 * ❤️‍🩹 **Power-Ups:**
 
-    * ❤️❤️❤️ 2 Extra Lives — keep playing even after a mine hit
-    * 🛡️ Shield — blocks one mine hit and reveals surrounding tiles
-    * 🔍 Reveal — uncovers a random mine on the board
-    * 👣 3 Safe Steps — guarantees your next three moves are mine-free
+    * ❤️❤️❤️ 2 Extra Lives - keep playing even after a mine hit
+    * 🛡️ Shield - blocks one mine hit and reveals surrounding tiles
+    * 🔍 Reveal - uncovers a random mine on the board
+    * 👣 3 Safe Steps - guarantees your next three moves are mine-free
 
 
 * 🎵 **Immersive 8-bit Sounds & Dynamic Music:** The soundtrack changes as you uncover more tiles, enhancing the atmosphere.
